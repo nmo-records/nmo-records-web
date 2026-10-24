@@ -1,0 +1,13 @@
+# Archivos del sistema operativo
+Thumbs.db
+Desktop.ini
+.DS_Store
+
+# Configuración local de Vercel
+.vercel/
+
+# Dependencias y archivos temporales si se agregan herramientas más adelante
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
