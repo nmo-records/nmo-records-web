@@ -9,15 +9,27 @@ const menuButton = document.querySelector(".menu");
 if (topbar && menuButton) {
   menuButton.addEventListener("click", () => {
     const isOpen = topbar.classList.toggle("nav-open");
+    menuButton.classList.toggle("is-open", isOpen);
     menuButton.setAttribute("aria-expanded", String(isOpen));
     menuButton.setAttribute("aria-label", isOpen ? "Cerrar menú" : "Abrir menú");
   });
+  const closeMenu = () => {
+    topbar.classList.remove("nav-open");
+    menuButton.classList.remove("is-open");
+    menuButton.setAttribute("aria-expanded", "false");
+    menuButton.setAttribute("aria-label", "Abrir menú");
+  };
   topbar.querySelectorAll("nav a").forEach((link) => {
-    link.addEventListener("click", () => {
-      topbar.classList.remove("nav-open");
-      menuButton.setAttribute("aria-expanded", "false");
-      menuButton.setAttribute("aria-label", "Abrir menú");
-    });
+    link.addEventListener("click", closeMenu);
+  });
+  document.addEventListener("keydown", (event) => {
+    if (event.key === "Escape" && topbar.classList.contains("nav-open")) {
+      closeMenu();
+      menuButton.focus();
+    }
+  });
+  document.addEventListener("click", (event) => {
+    if (!topbar.contains(event.target) && topbar.classList.contains("nav-open")) closeMenu();
   });
 }
 
