@@ -8,6 +8,9 @@ Sitio estático de NMO Records. Está hecho con HTML, CSS y JavaScript, sin depe
 - `asesoria.html`: información sobre la asesoría y el acompañamiento de lanzamientos.
 - `artistas.html`: proyectos acompañados.
 - `nikoni.html`: ficha de NIKONI, créditos y reproductor de “Cuando me miras”.
+- `privacidad.html`: aviso de privacidad para consultas y datos de lanzamiento.
+- `cookies.html`: tecnologías usadas y cookies.
+- `alcance-asesoria.html`: alcance informativo de la asesoría gratuita.
 
 Las imágenes, el logo y el audio están en `assets/`. Conserva esa carpeta junto a los archivos HTML.
 
@@ -27,4 +30,10 @@ El reproductor usa `assets/cuando-me-miras-demo_nmoformat.wav` (aprox. 5.6 MB), 
 
 ## Contacto
 
-Los enlaces de contacto actuales son WhatsApp e Instagram. Si cambias una dirección, actualízala en las cuatro páginas HTML.
+Los enlaces de contacto actuales son WhatsApp e Instagram. El aviso de privacidad también publica el correo de contacto autorizado. Si cambias una dirección, actualízala en las páginas correspondientes.
+
+## Avisos y privacidad
+
+La web no incorpora formularios ni código propio de analítica o cookies en esta versión. Las páginas informativas documentan WhatsApp/Instagram, Google Fonts, el alojamiento y los materiales que un artista comparta para una asesoría. Revisa también cualquier integración de analítica que actives desde el proveedor de alojamiento.
+
+Antes de tratar estos textos como aviso legal final, completa la identificación legal del responsable y confirma un domicilio de contacto. El aviso de privacidad indica expresamente que esos datos todavía están pendientes.

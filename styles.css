@@ -99,6 +99,19 @@ footer small { grid-column: 1 / -1; padding-top: 15px; border-top: 1px solid var
 .page-hero { width: min(100% - 64px, 1240px); margin: auto; padding: clamp(95px, 13vw, 175px) 0 90px; border-bottom: 1px solid var(--line); }
 .page-hero h1 { font-size: clamp(52px, 8vw, 100px); }
 .page-hero .intro { max-width: 670px; margin-bottom: 0; }
+.legal-page { width: min(100% - 64px, 900px); margin: 0 auto; padding: clamp(92px, 12vw, 150px) 0 100px; }
+.legal-page h1 { font-size: clamp(42px, 6.5vw, 76px); }
+.legal-content { color: #c6d0d3; }
+.legal-content h2 { margin: 48px 0 14px; color: var(--ink); font-size: clamp(22px, 3vw, 30px); line-height: 1.2; letter-spacing: -.04em; }
+.legal-content h3 { margin: 26px 0 8px; color: var(--ink); font-size: 17px; }
+.legal-content p, .legal-content li { max-width: 76ch; font-size: 14px; line-height: 1.85; }
+.legal-content ul, .legal-content ol { padding-left: 22px; }
+.legal-content a { color: var(--blue); text-decoration: underline; text-underline-offset: 3px; }
+.legal-note { margin: 26px 0 36px; padding: 18px 20px; border: 1px solid rgba(131,216,246,.34); border-left: 3px solid var(--blue); border-radius: 12px; background: rgba(131,216,246,.06); color: var(--ink); font-size: 13px; }
+.legal-status { color: var(--blue); font: 10px var(--mono); letter-spacing: .12em; }
+.legal-footer-links { grid-column: 1 / -1; display: flex; flex-wrap: wrap; gap: 12px 24px; padding-top: 16px; border-top: 1px solid var(--line); font-size: 9px; }
+.legal-footer-links a { color: var(--muted); }
+.legal-footer-links a:hover { color: var(--blue); }
 .service-detail { padding-top: 92px; }
 .service-detail .service-cards { grid-template-columns: repeat(2, 1fr); }
 .service-detail .service-card { min-height: 250px; padding: 34px; }
@@ -217,6 +230,8 @@ input[type="range"] { height: 4px; accent-color: var(--blue); cursor: pointer; }
   footer > span { text-align: right; font-size: 8px; }
   footer > a:nth-of-type(2) { justify-self: end; }
   .page-hero { width: calc(100% - 40px); padding: 90px 0 65px; }
+  .legal-page { width: calc(100% - 40px); padding: 92px 0 72px; }
+  .legal-content p, .legal-content li { font-size: 13px; }
   .service-detail { padding-top: 70px; }
   .release-help { padding-top: 16px; }
   .help-intro { padding: 26px; }
