@@ -30,7 +30,7 @@ El reproductor usa `assets/cuando-me-miras-demo_nmoformat.wav` (aprox. 5.6 MB), 
 
 ## Contacto
 
-Los enlaces de contacto actuales son WhatsApp e Instagram. El aviso de privacidad también publica el correo de contacto autorizado. Si cambias una dirección, actualízala en las páginas correspondientes.
+Los enlaces de contacto actuales son WhatsApp, Instagram, TikTok y correo. El aviso de privacidad publica el correo de contacto autorizado. Si cambias una dirección, actualízala en las páginas correspondientes.
 
 ## Avisos y privacidad
 
